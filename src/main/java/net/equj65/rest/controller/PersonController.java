@@ -39,7 +39,6 @@ public class PersonController {
 	@POST
 	public Person saveUser(Person person) {
 		personService.save(person);
-		// TODO 作成されたユーザIDを設定して返す。
 		return person;
 	}
 	
