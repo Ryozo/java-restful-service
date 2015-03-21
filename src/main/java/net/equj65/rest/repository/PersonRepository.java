@@ -7,6 +7,6 @@ import org.springframework.stereotype.Repository;
  * @author ryozo
  */
 @Repository
-public class UserRepository {
+public class PersonRepository {
 
 }

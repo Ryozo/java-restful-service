@@ -4,18 +4,18 @@ import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
 
-import net.equj65.rest.service.UserService;
+import net.equj65.rest.service.PersonService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
-@Path("/users")
-public class UserController {
+@Path("/persons")
+public class PersonController {
 
 	@Autowired
-	UserService userService;
+	PersonService userService;
 	
 	@GET
-	@Path("/{userId}")
+	@Path("/{personId}")
 	public String getUser(@PathParam("userId") String userId) {
 		// TODO 実装
 		return userId;

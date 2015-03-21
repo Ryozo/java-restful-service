@@ -11,7 +11,6 @@ import org.springframework.context.annotation.Configuration;
 /**
  * JAX-RS(Jsersey)の設定を行うJavaConfig.
  * @author ryozo
- *
  */
 @Configuration
 public class JerseyConfig extends ResourceConfig {
