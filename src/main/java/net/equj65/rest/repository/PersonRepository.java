@@ -1,12 +1,14 @@
 package net.equj65.rest.repository;
 
+import net.equj65.rest.entity.Person;
+
+import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 /**
- * ユーザ情報を提供するRepositoryです。
+ * を提供するRepositoryです。
  * @author ryozo
  */
-@Repository
-public class PersonRepository {
+public interface PersonRepository extends JpaRepository<Person, Long>{
 
 }

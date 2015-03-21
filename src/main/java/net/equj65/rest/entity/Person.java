@@ -20,7 +20,7 @@ public class Person {
 	/** Personを一意に識別するID */
 	@Id
 	@GeneratedValue
-	private long personId;
+	private Long personId;
 
 	/** Personの名前 */
 	@NotNull
